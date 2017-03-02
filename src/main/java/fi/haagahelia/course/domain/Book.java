@@ -16,7 +16,7 @@ public class Book {
 	private String isbn;
 	private int price;
 	
-	protected Book(){}
+	public Book(){}
 	
 	public Book(long id, String title, String author, int year, String isbn,
 			int price) {
